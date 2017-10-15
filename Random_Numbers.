@@ -1,0 +1,11 @@
+#include <iostream> //Lembre-se "Iostream" é um fluxo de dados.
+
+using namespace std;
+
+int main()
+{
+	int var;
+	
+	cout << var; //Para acumular a saída.
+	return 0;
+}
