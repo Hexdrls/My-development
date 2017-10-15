@@ -1,0 +1,12 @@
+#include <iostream> //Lembre-se "Iostream" é um fluxo de dados.
+
+using namespace std;
+
+int main()
+{
+	int nl = 12;
+	
+	nl++;
+	cout << nl;
+	return 0;
+}
