@@ -1,0 +1,13 @@
+#include <iostream> //Lembre-se "Iostream" é um fluxo de dados.
+
+using namespace std;
+
+int main()
+{
+	int nl, ne, resultado;
+	nl = 30;
+	ne = 10;
+	resultado = nl + ne;
+	cout << resultado;
+	return 0;
+} //Float, para amazenar números quebrados.
