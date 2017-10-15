@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char** argv)
+{
+	int dinheiro = 20;
+	
+	if(dinheiro > 10)
+	{
+	cout << "Eu irei ao cinema!";
+    }
+    else
+	{
+	cout << "Não irei ao cinema!";	
+	}
+ 	return 0;
+}
+
+//Observação: Sempre que o valor for 'menor' que '10' ele sempre irá aparecer a mensagem: "Não!".
+//E se o valor for 'maior' que '10' irá aparecer a mensagem: "Irei!".
