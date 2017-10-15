@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+	char c = 'E';
+	char e = 'A';
+	int soma = c + e;
+	
+	cout << soma;
+	return 0;
+}
