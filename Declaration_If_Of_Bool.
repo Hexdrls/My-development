@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char** argv)
+{
+	bool v = 30 < 60;
+	bool v2 = 30 > 60;
+	
+	if (v)
+	{
+		cout << "30 < 60 = Verdadeiro";
+	}
+	
+	if (!v2)
+	{
+		cout << " 30 > 60 = Falso";
+	}
+	return 0;
+}
