@@ -1,0 +1,43 @@
+/* + -> Adição;
+   - -> Subtraction;
+   * -> Multiplication;
+   / -> Division;
+   
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char** argv)
+{
+	int num1, num2, result;
+	char op; //Operation.
+	
+	cout << "Writing the first number:";
+	cin >> num1;
+	cout << "Writing the second number:";
+	cin >> num2;
+	cout << "The final result:";
+	cin >> op;
+	
+	switch(op) //For the Operation if start.
+	{
+	case '+':
+		result = num1 + num2;
+		cout << "Adition:" << result << endl;
+		break;
+	case '-':
+		result = num1 - num2;
+		cout << "Subtraction:" << result << endl;
+		break;
+	case '*':
+	result = num1 * num2;
+	cout << "Multiplication:" << result << endl;
+	break;
+    case '/':
+    	result = num1 / num2;
+    	cout << "Division:" << result << endl;
+    	}
+	return 0;
+}
